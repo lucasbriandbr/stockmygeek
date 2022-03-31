@@ -1,0 +1,84 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #242424;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    color: white;
+    font-family: System, monospace;
+    background-color: #242424;
+}
+
+.produits {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.produit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    border: 1px solid black;
+    color: white;
+    font-family: System, monospace;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.loginsection {
+    display: flex;
+    padding: 30px;
+    color: white;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 500px;
+}
+
+.theformulaire {
+    display: flex;
+    color: white;
+    font-family: System, monospace;
+    flex-direction: column;
+    min-height: 100px;
+    min-width: 300px;
+    justify-content: space-between;
+}
+
+.theformulaire div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.produit img:hover {
+    opacity: 75%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.formulairedesupressionoumodification {
+    display: flex;
+    flex-direction: row;
+}
+
+.editquantitybro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    color: white;
+}
